@@ -1,3 +1,120 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* font styles */
+h1 {
+  color: #FFF;
+  font-weight: 700;
+}
+
+.h2-white {
+  color: #FFF;
+}
+
+h3 {
+  color: #00B172;
+}
+
+h4 {
+  color: #FFF;
+}
+
+.paragraph-white {
+  color: #FFF;
+}
+
+.paragraph-centered {
+  text-align: center;
+}
+
+
+/* images */
+.img-logo {
+  height: 60px;
+}
+
+.feature-icon {
+  height: 60px
+
+}
+
+.screenshot {
+  width: 50%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.navigation > li {
+  padding: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: 1A1A1A;
+}
+
+#intro {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 800px;
+}
+
+#user-benefit-2 {
+  background-color: #00B172;
+  background-image: url("images/spotify-icon-white.png");
+  /* height: 800px; */
+  height: auto;
+  margin: 25px;
+  padding: 50px;
+}
+
+.centered-logo {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  /* left: 50%;
+  margin-left: -60px;
+  top: 50%;
+  margin-top: -60px; */
+}
+
+/* flexbox layouts */
+.layout-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.layout-row-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: top; */
+}
+
+.feature-box {
+  width: 25%;
+}
+
 /*
 Colors:
 
